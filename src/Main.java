@@ -36,8 +36,21 @@ public class Main {
 
     public static int meanFoodServiceEstimateTonnesPerYear(int[] foodServiceEstimatesTonnesPerYear)
     {
-        return -1;
+        int meanFoodServiceEstimateTonnesPerYear;
+        double sum = 0;
+        int[] meanFoodServiceEstimateTonnesPerYear = new int[0];
+        for (int i:meanFoodServiceEstimateTonnesPerYear ){
+            sum += i;
+        }
+        double mean = sum/ meanFoodServiceEstimateTonnesPerYear.length + 0.5;
+        return (int) mean;
     }
+
+
+
+
+
+
 
     /**
      * Median Methods
